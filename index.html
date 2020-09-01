@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Something</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
     <div class="js-clock">
-      <h1>00:00</h1>
+      <h1 class="clock"></h1>
     </div>
     <form class="js-form form">
       <input type="text" placeholder="What is your name?" />
     </form>
     <h4 class="js-greetings greetings"></h4>
     <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
+      <input type="text" class="underline" placeholder="Write a to do" />
     </form>
     <ul class="js-toDoList"></ul>
+    <div class="js-weather"></div>
+    <script src="weathers.js"></script>
     <script src="todo.js"></script>
     <script src="sd.js"></script>
     <script src="clock.js"></script>
